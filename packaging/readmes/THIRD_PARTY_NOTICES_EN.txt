@@ -1,0 +1,37 @@
+THIRD-PARTY NOTICES — AUDIO CONVERT PRO 2.3.1
+
+Audio Convert Pro bundles the following third-party runtime components:
+
+1. FFmpeg and FFprobe
+   Build: Gyan.dev essentials_build, Windows x64, static.
+   Version reported by the binary: 2026-09-24-git-5253641e62.
+   License: GNU General Public License, version 3 or later (GPL-3.0-or-later).
+   The build configuration enables GPL and includes external codec/media libraries.
+   See FFmpeg-BUILD-INFO.txt and Licenses/GPL-3.0.txt.
+   Upstream FFmpeg source commit:
+   https://github.com/FFmpeg/FFmpeg/commit/5253641e62
+   Gyan build information:
+   https://www.gyan.dev/ffmpeg/builds/
+
+2. Python 3.14 runtime
+   License: Python Software Foundation License.
+   See Licenses/Python-PSF-3.14.txt.
+
+3. CustomTkinter 6.0.0
+   License: MIT. See Licenses/customtkinter-MIT.txt.
+
+4. tkinterdnd2 0.6.3
+   License: MIT. See Licenses/tkinterdnd2-MIT.txt.
+   The package includes the TkDND native drag-and-drop runtime.
+
+5. Pillow 12.3.0
+   License: MIT-CMU. See Licenses/Pillow-MIT-CMU.txt.
+
+6. PyInstaller bootloader
+   License: GNU GPL version 2 or later, with the PyInstaller bootloader
+   exception. See Licenses/PyInstaller-COPYING.txt.
+
+Tcl/Tk license terms are retained with the bundled Tcl/Tk runtime.
+
+The application source has no separate license grant in this release.
+Each bundled component remains under its own applicable license.

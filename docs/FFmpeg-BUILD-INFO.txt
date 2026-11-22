@@ -1,0 +1,25 @@
+FFmpeg package provenance
+=========================
+
+Bundled files: ffmpeg.exe and ffprobe.exe
+Origin: copied from the previously tested AudioConverterPro runtime.
+Build label: Gyan.dev essentials_build, www.gyan.dev
+Architecture: Windows x64
+Linkage: static
+Version: 2026-09-24-git-5253641e62-essentials_build-www.gyan.dev
+FFmpeg source commit: 5253641e62
+Source: https://github.com/FFmpeg/FFmpeg/commit/5253641e62
+Build page: https://www.gyan.dev/ffmpeg/builds/
+
+Gyan describes its Windows builds as 64-bit, static and GPLv3. The bundled
+configuration enables GPL and uses external libraries. See FFmpeg-BUILDCONF.txt
+for the exact configuration reported by this binary and FFmpeg-VERSION.txt
+for the runtime version information.
+
+SHA-256
+-------
+ffmpeg.exe: 40A7ED51A3DC4C1BD27C65FF316B2F6F9B1E474BD48C2535408A0CA1F826A5CF (105,775,104 bytes)
+ffprobe.exe: B18088ABF728F33E887929F36AFFBD4C02B0D1DB8CAD3442C3575B4E8FF85AFD (105,563,136 bytes)
+
+The two executables are kept as the same tested upstream pair. Do not replace
+only one file with a binary from a different FFmpeg build.

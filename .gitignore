@@ -1,0 +1,7 @@
+build/
+release_artifacts/
+packaging/licenses/
+build_support/ffmpeg/*.exe
+__pycache__/
+*.py[cod]
+.venv/

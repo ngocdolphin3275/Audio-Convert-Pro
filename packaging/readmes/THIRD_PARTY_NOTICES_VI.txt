@@ -1,0 +1,37 @@
+THIRD-PARTY NOTICES — AUDIO CONVERT PRO 2.3.1
+
+Audio Convert Pro đóng gói các thành phần runtime bên thứ ba sau:
+
+1. FFmpeg và FFprobe
+   Bản build: Gyan.dev essentials_build, Windows x64, static.
+   Phiên bản do binary báo cáo: 2026-09-24-git-5253641e62.
+   Giấy phép: GNU General Public License phiên bản 3 trở lên (GPL-3.0-or-later).
+   Cấu hình build bật GPL và sử dụng các thư viện codec/media bên ngoài.
+   Xem FFmpeg-BUILD-INFO.txt và Licenses/GPL-3.0.txt.
+   Commit mã nguồn FFmpeg:
+   https://github.com/FFmpeg/FFmpeg/commit/5253641e62
+   Thông tin bản build Gyan:
+   https://www.gyan.dev/ffmpeg/builds/
+
+2. Python 3.14 runtime
+   Giấy phép: Python Software Foundation License.
+   Xem Licenses/Python-PSF-3.14.txt.
+
+3. CustomTkinter 6.0.0
+   Giấy phép: MIT. Xem Licenses/customtkinter-MIT.txt.
+
+4. tkinterdnd2 0.6.3
+   Giấy phép: MIT. Xem Licenses/tkinterdnd2-MIT.txt.
+   Gói có kèm runtime kéo-thả TkDND native.
+
+5. Pillow 12.3.0
+   Giấy phép: MIT-CMU. Xem Licenses/Pillow-MIT-CMU.txt.
+
+6. PyInstaller bootloader
+   Giấy phép: GNU GPL phiên bản 2 trở lên, kèm ngoại lệ bootloader của PyInstaller.
+   Xem Licenses/PyInstaller-COPYING.txt.
+
+Điều khoản giấy phép Tcl/Tk được giữ cùng runtime Tcl/Tk đi kèm.
+
+Mã nguồn ứng dụng chưa có giấy phép riêng trong bản phát hành này.
+Mỗi thành phần đi kèm vẫn tuân theo giấy phép tương ứng.
